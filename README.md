@@ -9,7 +9,7 @@ The game is abstracted into several .java files:
 
 **2. Deck.java**: Contains the code to construct a `Deck` object, which constructs an `ArrayList` of 52 `Card` objects that represent a standard `Deck` of playing `Cards`. The `Deck` object can be shuffled, printed, and can deal `Cards`.
 
-**3. Player.java**: Contains the code to construct a `Player` (that's you!). Every `Player` object has a `Hand` (5 `Cards` TBD), a `playerID` chosen by the `Player`, and an initial `bankroll` of 100. This class and its methods are primarily focused on the `Player`'s `hand`, which can be removed from, added to, and sorted. `Players` are also able to place their bets, and their final hands are scored using logic from this class.
+**3. Player.java**: Contains the code to construct a `Player` - that's you! Every `Player` object has a `Hand` (5 `Cards` TBD), a `playerID` chosen by the `Player`, and an initial `bankroll` of 100. This class and its methods are primarily focused on the `Player`'s `hand`, which can be removed from, added to, and sorted. `Players` are also able to place their bets, and their final hands are scored using logic from this class.
 
 **4. Graphics.java**: Contains the code to dynamically display playing `Cards` by passing information from an `ArrayList` of `Cards` and using `HashMaps` to determine what `suit` and `rank` will be shown.
 
