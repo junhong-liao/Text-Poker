@@ -42,13 +42,15 @@ public class Game {
 		ArrayList <String> WLratio = new ArrayList<>();
 		Graphics graphicsCard = new Graphics();
 		Scanner scan = new Scanner(System.in);
-        int remove;
+        String remove;
         
         System.out.println("Welcome to Jun's Video Poker Project!");
 
         System.out.println("Would you like to view the instructions for how to play Video Poker? " +
-                "(Enter 'Y' for Yes, or anything else for No): ");
-        if(scan.next().equals("Y") || scan.next().equals("y")) {
+                "(Enter 'Y' for Yes, or anything else for no): ");
+        String answer = scan.next();
+
+        if(answer.equals("Y") || answer.equals("y")) {
             System.out.println("\n\n\n*****\n");
             System.out.println(Instructions.getInstructions());
             System.out.println("*****\n\n\n");
@@ -77,9 +79,9 @@ public class Game {
             System.out.println("\nDiscard cards?\n");
         
             for(int i = 0; i < 5; i++){
-            System.out.println("Remove card #"+(i+1)+"? (enter 1 for yes, enter anything else for no)");
-            remove = scan.nextInt();
-                if(remove == 1) {
+            System.out.println("Remove card #"+(i+1)+"? (enter 'Y' for yes, enter anything else for no)");
+            remove = scan.next();
+                if(remove.equals("Y") || remove.equals("y")) {
                     p.hand.set(i, d.deal());
                 }
             }
