@@ -5,19 +5,19 @@
 Space Poker is my attempt to recreate video poker in Java with a user interface.
 The game is abstracted into several .java files:
 
-**1. Card.java**: Contains the code for creating the `Card` object with a suit of Heart, Diamond, Spade, or Clubs, and a `rank` between 2 (2) to 14 (Ace). Card.java also implements the `Comparable` interface, which allows `Cards` to be compared to each other, and thus sorted.
+1. Card.java: Contains the code for creating the `Card` object with a suit of Heart, Diamond, Spade, or Clubs, and a `rank` between 2 (2) to 14 (Ace). Card.java also implements the `Comparable` interface, which allows `Cards` to be compared to each other, and thus sorted.
 
-**2. Deck.java**: Contains the code to construct a `Deck` object, which constructs an `ArrayList` of 52 `Card` objects that represent a standard `Deck` of playing `Cards`. The `Deck` object can be shuffled, printed, and can deal `Cards`.
+2. Deck.java: Contains the code to construct a `Deck` object, which constructs an `ArrayList` of 52 `Card` objects that represent a standard `Deck` of playing `Cards`. The `Deck` object can be shuffled, printed, and can deal `Cards`.
 
-**3. Player.java**: Contains the code to construct a `Player` - that's you! Every `Player` object has a `Hand` (5 `Cards` TBD), a `playerID` chosen by the `Player`, and an initial `bankroll` of 100. This class and its methods are primarily focused on the `Player`'s `hand`, which can be removed from, added to, and sorted. `Players` are also able to place their bets, and their final hands are scored using logic from this class.
+3. Player.java: Contains the code to construct a `Player` - that's you! Every `Player` object has a `Hand` (5 `Cards` TBD), a `playerID` chosen by the `Player`, and an initial `bankroll` of 100. This class and its methods are primarily focused on the `Player`'s `hand`, which can be removed from, added to, and sorted. `Players` are also able to place their bets, and their final hands are scored using logic from this class.
 
-**4. Graphics.java**: Contains the code to dynamically display playing `Cards` by passing information from an `ArrayList` of `Cards` and using `HashMaps` to determine what `suit` and `rank` will be shown.
+4. Graphics.java: Contains the code to dynamically display playing `Cards` by passing information from an `ArrayList` of `Cards` and using `HashMaps` to determine what `suit` and `rank` will be shown.
 
-**5. Poker.java**: Poker.java is simply the class that contains the main method. From this method, you are also able to run an alternate version of the Video Poker program by passing in manually typed `Cards` into the `args` string (e.g. `java Poker s1 s2 s3 s4 s5`).
+5. Poker.java: Poker.java is simply the class that contains the main method. From this method, you are also able to run an alternate version of the Video Poker program by passing in manually typed `Cards` into the `args` string (e.g. `java Poker s1 s2 s3 s4 s5`).
 
-**6. Game.java**: The `Game` class simply organizes the files to create the Video Poker program. It also gives you some statistics on your gameplay after the `Game` concludes!
+6. Game.java: The `Game` class simply organizes the files to create the Video Poker program. It also gives you some statistics on your gameplay after the `Game` concludes!
 
-**7. Instructions.java**: A simple class that holds a `String` (Instructions to the game) as its only instance variable, and has a constructor that populates said `String`. It has one method that returns this `String`.
+7. Instructions.java: A simple class that holds a `String` (Instructions to the game) as its only instance variable, and has a constructor that populates said `String`. It has one method that returns this `String`.
 
 
 ## A few additional features I'm considering adding:
