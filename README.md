@@ -58,7 +58,7 @@ Straight (win 4x your bet): hand containing five cards of consecutive rank.
 Three of a Kind (win 4x your bet): hand containing three cards of the same value.
 Two Pairs (win 2x your bet): hand containing two pairs of two cards of the same rank.*
 
-Instructions (alt.): How to Test the Program (Debugging):
+## Instructions (alt.): How to Test the Program (Debugging):
 ***
 
 Initially, this feature was added for debugging purposes, but you can use it to test out a hand, or my overall program! Here's how it works:
