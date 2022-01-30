@@ -1,6 +1,6 @@
-// Welcome to my project: Space Poker!
+Welcome to my project: Space Poker!
 
-// Project Description:
+Project Description:
 
 Space Poker is my attempt to recreate video poker in Java with a user interface.
 Space Poker is abstracted into several .java files:
@@ -28,7 +28,7 @@ A few additional features I'm considering adding:
 
 ***
 
-// How to Install and Run the Project:
+How to Install and Run the Project:
 
 1. Download the files directly from this repository
 2. Run and compile the programs from terminal, or an IDE of your preference.
@@ -36,7 +36,7 @@ A few additional features I'm considering adding:
 
 ***
 
-// How the Use the Project:
+How the Use the Project:
                                                                    
 Instructions: How to Play (Regular):
 
