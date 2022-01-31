@@ -33,9 +33,6 @@ The game is abstracted into several .java files:
 1. Download the files directly from this repository.
 2. Run and compile the programs from terminal, or an IDE of your preference.
 3. Enjoy Video Poker!
-
-
-## How the Use the Project:
                                                                  
 ## Instructions: How to Play (Regular):
 ***
