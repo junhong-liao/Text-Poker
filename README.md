@@ -36,8 +36,9 @@ The game is abstracted into several .java files:
 
 
 ## How the Use the Project:
-***                                                                   
-Instructions: How to Play (Regular):
+                                                                 
+## Instructions: How to Play (Regular):
+***
 
 Enter your name, then choose a number of tokens to bet.
 
