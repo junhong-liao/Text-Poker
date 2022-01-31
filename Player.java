@@ -61,10 +61,10 @@ public class Player {
 
     }
 
-    public void winnings(double multiplier){
+    public void winnings(int multiplier){
         bankroll += (bet*multiplier);
     }
-    public double getbankroll(){
+    public int getbankroll(){
         return bankroll;
     }
     public void printHand(){
