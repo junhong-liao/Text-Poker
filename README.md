@@ -1,4 +1,4 @@
-# Welcome to project Space Poker!
+# Welcome to text poker
 
 **Project Description:**
 ***
